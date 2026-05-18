@@ -1,0 +1,65 @@
+/* Root Variables */
+:root {
+    --dark-blue: #222059;
+    --white: #FFFFFF;
+    --green: #5cb85c;
+    --bg-blue: #e8f4fd;
+}
+
+/* Global Styles */
+body {
+    background-color: var(--bg-blue);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Layout Container */
+.container {
+    background-color: var(--white);
+    padding: 30px 40px;       
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 400px;            
+}
+
+/* Header Styling */
+h1 {
+    font-size: 1.8rem;        
+    margin-bottom: 25px;
+    color: var(--dark-blue);
+}
+
+/* Navigation/Button Group */
+.button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+}
+
+/* Button Styling */
+button {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    padding: 10px 18px;      
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/* Dynamic Message Output Area */
+#displayMessage {
+    margin-top: 25px;
+    font-size: 1.4rem;       
+    font-weight: bold;
+    color: var(--dark-blue);
+    min-height: 1.5em;
+}
